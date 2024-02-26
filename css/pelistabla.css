@@ -1,0 +1,43 @@
+.tabla {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.fila {
+    display: table-row;
+}
+
+.celda {
+    display: table-cell;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.encabezado {
+    font-weight: bold;
+    background-color: #f2f2f2;
+}
+
+.celda img {
+    width: 100px;
+}
+
+.celda a {
+    text-decoration: none;
+    color: blue;
+}
+
+
+.boton{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 10px 20px;
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    border-radius: 5px; 
+}

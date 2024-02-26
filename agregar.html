@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar Pelicula</title>
+    <link rel="stylesheet" href="./css/formulario.css">
+</head>
+<body>
+    <form action="azucar.php">
+        <h1>Agregar Pelicula</h1>
+        <div>
+            <label for="titulo">Titulo:</label>
+            <input type="text" name="titulo" id="titulo" required>
+        </div>
+        <div>
+            <label for="duracion">Duracion:</label>
+            <input type="time" name="duracion" id="duracion" required>
+        </div>
+        <div>
+            <label for="pais">Pais:</label>
+            <input type="text" name="pais" id="pais" required>
+        </div>
+        <div>
+            <label for="estreno">Estreno:</label>
+            <input type="date" name="estreno" id="estreno" required>
+        </div>
+        <div>
+            <label for="imagen">Imagen:</label>
+            <input type="file" name="imagen" id="imagen" required>
+        </div>
+        <div>
+            <label for="trailer">Trailer:</label>
+            <input type="url" name="trailer" id="trailer" required>
+        </div>
+        <a href="./index.html"><button>Volver</button></a>
+    </form>
+</body>
+</html>
